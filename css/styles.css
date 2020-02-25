@@ -1,0 +1,304 @@
+/* --------Index Page--------- */
+
+body {
+    font-family: sans-serif
+}
+
+
+
+
+
+#header {
+    background-color: rgba(73, 88, 103, 1);
+    padding: 60px 40px 40px 40px;
+    background-size: cover;
+}
+#header img {
+    margin: 0 auto;
+    width: 15%;
+    border: 4px solid white;
+    border-radius: 50%;
+}
+#header h1 {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-align: center;
+}
+#header h2 {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-align: center;
+}
+#header p {
+    font-family: 'Roboto 300', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+
+
+
+
+
+
+#indexpect {
+    background-color: rgba(189, 213, 234, 1);
+    padding: 40px;
+}
+#indexpect h3 {
+    font-family: 'Roboto', sans-serif;
+}
+#indexpect ul {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+
+#inddescription {
+    padding: 40px;
+    background: url('../images/swirl.png');
+    background-repeat: repeat; 
+    background-position: center;
+}
+#inddescription h3 {
+    font-family: 'Roboto', sans-serif;
+}
+#inddescription p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 1.4;
+}
+.cut {
+    min-height: 400px;
+}
+.cut img {
+    width: 300px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.cut img:hover {
+    border: 2px solid #495867;
+    padding: 2px;
+}
+.cutimage {
+    float: left;
+    width: 40%;
+}
+.cuttxt {
+    float: left;
+    width: 60%;
+}
+
+
+
+
+
+#indspeakers {
+    padding: 40px;
+    overflow: auto;
+    background: url('../images/swirl.png');
+    background-repeat: repeat; 
+    background-position: center;
+}
+.speakercol1 {
+    width: 49%;
+    float: left;
+    border: 1px solid #efefef;
+    box-shadow: 3px 3px #efefef;
+}
+.speakercol2 {
+    width: 49%;
+    float: right;
+    border: 1px solid #efefef;
+    box-shadow: 3px 3px #efefef;
+}
+.speakercol1 h3, .speakercol2 h3 {
+    text-align: center;
+}
+.speaker {
+    clear: both;
+    min-height: 200px;
+}
+.speakerimage {
+    width: 50%;
+    float: left;
+}
+.speakerimage img {
+    width: 150px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.speakerimage img:hover {
+    border: 2px solid #495867;
+    padding: 2px;
+}
+.speakertext {
+    width: 50%;
+    float: left;
+}
+.speaker h2 {
+    font-family: 'Roboto', sans-serif;
+}
+.speaker h3 {
+    font-family: 'Roboto', sans-serif;
+}
+.speaker h4 {
+    font-family: 'Roboto', sans-serif;
+}
+.speaker p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px; 
+    line-height: 1.4;   
+}
+
+
+
+
+
+
+
+#indreserve {
+    background-color: rgba(189, 213, 234, 1);
+    padding: 40px;
+}
+#indreserve table {
+    margin: 0 auto;
+}
+#indreserve h3 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+#indreserve tr.trblue {
+    background-color: rgba(73, 88, 103, 1);
+}
+#indreserve tr {
+    background-color: rgba(233, 233, 233, 1);
+}
+#indreserve th {
+    padding: 25px;
+    color: white;
+}
+#indreserve td {
+    padding: 25px;
+}
+#indreserve table {
+    text-align: center;
+}
+#indreserve a.tdbutton {
+    background-color: rgba(254,95,85,1);
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+#indreserve a.tdbutton:hover {
+    background-color: rgba(254,50,50,1);
+    color: white;
+}
+
+
+
+
+
+
+#indwhat {
+    background-color: rgba(189, 213, 234, 1);
+    padding: 40px;
+    line-height: 2;
+}
+#indwhat a {
+    background-color: rgba(254, 95, 85, 1);
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+#indwhat a:hover {
+    background-color: rgba(254, 50, 50, 1);
+    color: white;
+}
+#indwhat h3 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+#indwhat p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px; 
+    text-align: center;   
+}
+
+
+
+
+
+#footer {
+    background-color: rgba(73, 88, 103, 1);
+    padding: 10px 40px 10px 40px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
+
+/*----------Tickets Page----------*/
+
+#tictickets {
+    margin: 0 auto;
+}
+#tictickets h1 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+#tictickets h2 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+#tictickets form {
+    text-align:  center;
+    margin: 0 auto;
+    width: 400px;
+    padding: 30px;
+    border: 2px solid rgba(233, 233, 233, 1);
+    box-shadow: 3px 3px #efefef;
+    margin-bottom: 60px;
+}
+.ticketbtn {
+    background-color: rgba(254, 95, 85, 1);
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+}
+.ticketbtn:hover {
+    background-color: rgba(254, 50, 50, 1);
+    color: white;
+}
+#tictickets form [type="checkbox"] {
+    margin-right: 10px;
+}
+#tictickets form .select-dropdown select {
+    border: none;
+    background-color: #fff;
+    width: 50%;
+}
+#tictickets form .select-dropdown select:hover {
+    background-color: black;
+    color: white;
+}
+#tictickets p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px; 
+    line-height: 1.4;
+    text-align: center; 
+}
